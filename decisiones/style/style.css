@@ -45,3 +45,34 @@ button {
 button:hover {
   background-color: #e86aa0;
 }
+ul {
+  list-style-type: none; 
+  padding: 0;
+  max-width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  background-color: #ffe4e6; 
+  margin: 8px 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #ffccd5; 
+}
+
+a {
+  color: #b83280; 
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
